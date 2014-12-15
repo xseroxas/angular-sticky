@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>    
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="components/sticky/sticky.js"></script>
+  
+  <div data-ng-controller="MainController">
+    
+    
+    <div class="container" style="width: 100px; height: 100px; overflow: auto; background-color: green; position: relative;">
+            <div class="sticker" sticky stick-to=".container" stick-top="10" style="z-index: 100;"></div>
+            <div class="sticker" sticky stick-to=".container" stick-top="20" stick-left="20" style="z-index: 100; background-color: purple;"></div>
+        <div style="width: 200px; height: 200px; background-color: yellow; position: relative;">
+            DASLKDJSAKDAj
+            ASDASDASDSA;DAKSD;LASj
+            DASDAS;DLKAS;LDK;ASj
+            DASDKHASDAHSKJD DHAKS DHAj
+            DASDKASJD HASLDHLKASHDKAS DLHASLDASj
+            DADL ASDLASJ DLKASHDLAj
+            ASLDKHASL DHAKSDLAKSj
+        </div> 
+    </div>
+    
+  </div>
+  
+</body>
+</html>
