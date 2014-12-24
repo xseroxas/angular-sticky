@@ -16,7 +16,7 @@ describe('Sticky directive tests', function() {
         $rootScope.$digest();
     }));
 
-it('Element should be recognized', function() {
+it('should find directive element', function() {
     console.log(element);
     console.log(element.find('.container'));
     console.log(element.find('.directive').css('top'));
